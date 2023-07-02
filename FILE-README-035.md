@@ -1,7 +1,7 @@
 
-import matplotlib.pyplot as plt
-from skimage import io, color, measure
-def detect_letters(image_path):
+    import matplotlib.pyplot as plt
+    from skimage import io, color, measure
+    def detect_letters(image_path):
     # Baca gambar menggunakan scikit-image
     image = io.imread(image_path)
     
